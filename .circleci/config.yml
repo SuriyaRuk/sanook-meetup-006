@@ -65,8 +65,8 @@ jobs:
             echo '{"root":"."}' > static.json
             ls
             git init
-            git config --global user.email "suriyathailandcpe@gmail.com"
-            git config --global user.name suriya13052540"
+            git config --global user.email "deploy@codesanook.com"
+            git config --global user.name "CircleCI Deploy"
             git add -A
       
       - run:
