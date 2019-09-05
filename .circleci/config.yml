@@ -2,6 +2,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
+#
 version: 2
 jobs:
   build:
@@ -64,8 +65,8 @@ jobs:
             echo '{"root":"."}' > static.json
             ls
             git init
-            git config --global user.email "deploy@codesanook.com"
-            git config --global user.name "CircleCI Deploy"
+            git config --global user.email "suriyathailandcpe@gmail.com"
+            git config --global user.name suriya13052540"
             git add -A
       
       - run:
